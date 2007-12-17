@@ -17,7 +17,6 @@ BuildRequires:	SDL_mixer-devel SDL_image-devel SDL_net-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	mesaglu-devel
 BuildRequires:	ImageMagick
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Bloboats is a boat racing game in which the objective is to reach the
