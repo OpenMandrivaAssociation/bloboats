@@ -16,7 +16,7 @@ Summary:	%{Summary}
 BuildRequires:	SDL_mixer-devel SDL_image-devel SDL_net-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	mesaglu-devel
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
