@@ -1,6 +1,6 @@
 %define name	bloboats
 %define version 1.0.1
-%define rel	1
+%define rel	2
 %define release	%mkrel %rel
 %define Summary Boat racing game
 
