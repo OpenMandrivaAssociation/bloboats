@@ -64,3 +64,37 @@ rm -rf %{buildroot}
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
 
+
+
+%changelog
+* Mon Nov 28 2011 Andrey Bondrov <abondrov@mandriva.org> 1.0.2-1
++ Revision: 734894
+- New version 1.0.2
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-3mdv2011.0
++ Revision: 616778
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.0.1-2mdv2010.0
++ Revision: 424661
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Thu Dec 20 2007 Olivier Blin <blino@mandriva.org> 1.0.1-1mdv2008.1
++ Revision: 135856
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Mar 08 2007 Olivier Blin <oblin@mandriva.com> 1.0.1-1mdv2007.1
++ Revision: 138396
+- buildrequires mesaglu-devel
+- install in games bindir
+- wrap description
+- initial bloboats package from Jose Jorge
+- Create bloboats
+
