@@ -7,6 +7,7 @@ Group:		Games/Arcade
 Url:		https://bloboats.dy.fi/
 Source0:	http://mirror.kapsi.fi/bloboats.dy.fi/%{name}-%{version}.tar.gz
 Patch0:		bloboats-1.0.2-cflags.patch
+BuildRequires:	make
 BuildRequires:	imagemagick
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
